@@ -68,7 +68,7 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figcaption, figure, 
+article, aside, canvas, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -79,7 +79,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -107,12 +107,12 @@ table {
 	border-spacing: 0;
 }
 
-a[href], label[for], select, 
+a[href], label[for], select,
 input[type=checkbox], input[type=radio] {
 	cursor: pointer;
 }
 
-button, input[type=button], input[type=image], 
+button, input[type=button], input[type=image],
 input[type=reset], input[type=submit] {
 	padding: 0;
 	overflow: visible;
@@ -141,10 +141,10 @@ input[type=url], input[type=password], input[type=text], input[type=email], inpu
 h2{font-size: 30px;}
 h1 {font-size: 36px;}
 h3 {font-size: 24px;}
-button::-moz-focus-inner, 
-input[type=button]::-moz-focus-inner, 
-input[type=image]::-moz-focus-inner, 
-input[type=reset]::-moz-focus-inner, 
+button::-moz-focus-inner,
+input[type=button]::-moz-focus-inner,
+input[type=image]::-moz-focus-inner,
+input[type=reset]::-moz-focus-inner,
 input[type=submit]::-moz-focus-inner {
 	border: 0;
 }
@@ -175,7 +175,7 @@ button.black,
 input[type=submit].black,
 .btn.black {
 	background: #444;
-	color: #fff;	
+	color: #fff;
 }
 button.big,
 input[type=submit].big,
@@ -234,13 +234,13 @@ a:hover{text-decoration:underline;}
 	position: absolute;
 }
 .logo {
-	width: 170px;
-	height: 21px;
-	background: url(../images/logo.png) no-repeat;
+	width: 700px;
+	height: 200px;
+	background: url(../images/bglogo2.png) no-repeat;
 	text-indent: -9999px;
 	overflow: hidden;
 	display: block;
-	margin: 0 0 43px;
+	margin: 0 auto;
 }
 .logo a {
 	display: block;
@@ -848,7 +848,7 @@ div.selector select {
 	margin: 0 0 0 2%;
 	text-align: center;
 	font-size: 16px;
-	line-height: 23px;	
+	line-height: 23px;
 }
 #footer .col .heading {
 	text-align: center;
@@ -907,7 +907,7 @@ div.selector select {
 }
 @media (-webkit-min-device-pixel-ratio:2) ,(min--moz-device-pixel-ratio:2),(-o-min-device-pixel-ratio:2/1),(min-device-pixel-ratio:2),(min-resolution:192dpi),(min-resolution:2dppx){
 	.logo{
-		background:url(../images/logo@x2.png) no-repeat;
+		background:url(../images/bglogo2.png) no-repeat;
 		background-size:cover;
 	}
 	.tools-nav .login {
